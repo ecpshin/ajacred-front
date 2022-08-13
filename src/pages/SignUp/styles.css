@@ -1,0 +1,109 @@
+.container_signup {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(29, 100%, 50%, 1);
+}
+
+.form_signup {
+    width: 600px;
+    height: auto;
+    padding: 40px 50px;
+    row-gap: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsla(0, 0%, 80%, 0.63);
+    border-radius: 15px;
+}
+
+.input_group {
+    width: 100%;
+    height: auto;
+    row-gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.input_group input {
+    width: 100%;
+    height: 40px;
+    padding: 0 12px;
+    font-size: 1.45rem
+}
+
+.input_group label {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.button_group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panel_title {
+    font-size: 3.8rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.form_link,
+.form_link a {
+    font-size: 1.48rem;
+    font-weight: 500;
+    color: hsl(29, 100%, 50%);
+}
+
+.form_link a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.form_link a:hover {
+    font-weight: 600;
+    color: hsla(0, 0%, 0%, 0.705);
+}
+
+.btn {
+    width: 49.5%;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #ccc;
+}
+
+.btn_success {
+    background-color: hsla(29, 100%, 50%, 1);
+    opacity: 0.7;
+}
+
+.btn_cancel {
+    background-color: hsla(0, 100%, 50%, 1);
+    opacity: 0.7;
+}
+
+.btn:hover {
+    font-weight: 700;
+    opacity: 1;
+}
+
+.box_shadow {
+    box-shadow: 1px 2px 32px rgb(26, 26, 26);
+}
